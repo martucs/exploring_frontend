@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>World cities</title>
 	<link rel="icon" type="png" href="https://cdn.pixabay.com/photo/2024/02/03/02/16/earth-8549451_640.png">
+	
 </head>
 
 <style>
@@ -37,16 +38,47 @@ div.city_block section h2 {
 	color:black;
 }
 
+table {
+	border-collapse: collapse;
+}
+
 table th {
 	text-align: left; /* el default es que esté en 'center' */
 	background-color: #FFF7D4;
 	color: #333;
+	padding-left: 10px;
+	border: 1px solid #C98B96;
 }
 
 table td {
 	padding: 5px; /* espacio entre filas */
+	padding-left: 10px;
+	padding-right: 30px;
+	border: 1px solid #C98B96;
 }
 
+ul li {
+	margin: 10px;
+}
+
+.yes_button {
+	border:none;
+	background-color: #D43B7B;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.no_button {
+	border:none;
+	background-color: #EDD03E;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
 </style>
 
 <body>
@@ -70,7 +102,7 @@ table td {
 </section>
 </div>
 
-
+<br><br>
 <h2>Cities I would like to visit</h2>
 <table style="width:100%">
 	<tr>
@@ -90,5 +122,34 @@ table td {
 	</tr>
 </table>
 <br><br>
+
+<h2>Some 42 campus locations I could be interested in</h2>
+<!-- unordered list -->
+<ul>
+	<li>Antwerp</li>
+	<li>Lausanne</li>
+	<li>Mulhouse</li>
+	<li>Quebec</li>
+	<li>Oporto</li>
+	<li>Vienna</li>
+	<li>Helsinki</li>
+</ul>
+
+<p>Would you ever visit New York?</p>
+<button class="yes_button" type="button" onclick="alert('I see we are like-minded...')">Yesss</button>
+<button class="no_button" id ="mybutton" type="button" onclick="alert('What a pity...')">Nope</button>
+
+<p>Let me know a city you would like to visit!</p>
+<form action="./thankyou.html">
+	<label for="city">City:</label>
+	<input type="text" id="city" name="city"><br><br>
+  
+	<label for="name">your name:</label>
+	<input type="text" id="name" name="name"><br><br>  
+  
+	<input type="submit" value="Submit">
+</form>
+<!-- es buena practica poner el script aqui para asegurarse de que haya cargado bien la pagina -->
+<script	src="script.js"></script>
 </body>
 </html>
