@@ -1,0 +1,33 @@
+nav {
+    background-color: #272727;
+    padding: 8px 0; /* espacio entre los elementos de la navbar y el recuadro*/ 
+  }
+  
+  .navbar {
+    list-style: none; /* me quita los puntos de los elementos*/
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;               /* space between items */
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: block;          /* makes the whole area clickable */
+  }
+  
+  .navbar li a:hover {
+    background-color: #111111;
+    border-radius: 6px;     /*redondea los bordes when hovering*/
+  }
+
+  img {
+    width: 100%;
+    height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
+    display: block; /*evitamos espacios debajo de la imagen*/
+  }
+  
