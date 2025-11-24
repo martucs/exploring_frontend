@@ -1,3 +1,16 @@
+
+@font-face {
+  font-family: norway-font;
+  src: url('../fonts/Norway-rvVR7.ttf');
+}
+
+body {
+  background-color: black;
+  color:aliceblue;
+  font-family: norway-font;
+  letter-spacing: 3px;
+}
+
 nav {
     background-color: #272727;
     padding: 8px 0; /* espacio entre los elementos de la navbar y el recuadro*/ 
@@ -25,13 +38,14 @@ nav {
     border-radius: 6px;     /*redondea los bordes when hovering*/
   }
 
-  img {
+  img.hero-image {
     width: 100%;
     height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
     display: block; /*evitamos espacios debajo de la imagen*/
   }
 
   footer {
+    color:#111111;
     text-align: right;
     background-color: aliceblue;
     padding: 10px;
