@@ -30,4 +30,10 @@ nav {
     height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
     display: block; /*evitamos espacios debajo de la imagen*/
   }
+
+  footer {
+    text-align: right;
+    background-color: aliceblue;
+    padding: 10px;
+  }
   
