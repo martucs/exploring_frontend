@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-    background-color: rgb(23, 23, 23);
+    background-color: #202020c1;
     /* padding: 8px 0; espacio entre los elementos de la navbar y el recuadro  */
     margin-left: -1%;
     margin-right: -1%;
@@ -70,7 +70,7 @@ nav {
   }
   
   .hero p {
-    text-align: left;     /* makes paragraph left aligned */
+    text-align: left;    
     margin-top: 20px;     /* space below image */
   }
   
@@ -83,7 +83,10 @@ nav {
   footer {
     color:wheat;
     text-align: right;
-    background-color: #272727c1;
-    padding: 10px;
+    background-color: #202020c1;
+
+    margin-left: -1%;
+    margin-right: -1%;
+    padding: 8px 1%;   /* keeps text aligned with the rest */
   }
   
