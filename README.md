@@ -1,6 +1,13 @@
 # Intro
 In this repository you can find a few websites I created to dive a bit into html, css, javascript, typescript and vue.js. 
 
+# Website inspo
+Here are a few websites that I believe have great design or have caught my eye in some way:
+
+- https://www.browserstack.com/
+- https://kirillgroshev.com/
+- https://getbootstrap.com/
+
 # Resources
   ### < HTML & CSS >
   [W3schools](https://www.w3schools.com/) has been my Bible 🙇
