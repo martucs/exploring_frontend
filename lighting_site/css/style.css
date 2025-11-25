@@ -18,21 +18,25 @@ body {
   margin-right: 1%;
 }
 
+
+
 nav {
     background-color: #202020c1;
-    /* padding: 8px 0; espacio entre los elementos de la navbar y el recuadro  */
     margin-left: -1%;
     margin-right: -1%;
-    padding: 8px 1%;   /* keeps text aligned with the rest */
+    padding: 8px 1%;   /* espacio entre los elementos de la navbar y el recuadro */
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
   }
   
   .navbar {
-    list-style: none; /* me quita los puntos de los elementos*/
+    list-style: none; /* quita los puntos de los elementos*/
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-    gap: 30px;               /* space between items */
+    gap: 30px;               
 
   }
   
@@ -58,7 +62,6 @@ nav {
   
   .hero h1 {
     position: absolute;
-    /* top: 0%;       distance from top of image */
     left: 30%;     /*  distance from left of image*/
     right: 1%;
     margin: 0;
@@ -92,25 +95,22 @@ section h2 {
   border-bottom: 1px solid wheat;
 }
 
-
-
-/* ===== Directors of Photography ===== */
-.dops-section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  /* keep same text color as body */
+/* la SECCION DOP ENTERA*/
+#directors-of-photography {
+  max-width: 85%;  
+  margin: 0 auto;     /* centers */
 }
 
-/* Part A: profile (two column: text | image) */
+
 .dop-box {
-  display: flex;               /* flex for two columns */
+  display: flex;             
   gap: 20px;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;            /* allows columns to stack on small screens */
 }
 
-/* left text column */
+
 .dop-text {
   /* flex: 1 1 0px;            /* grow, shrink, base width 360px */
   /*min-width: 0px; */
