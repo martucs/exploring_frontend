@@ -1,14 +1,19 @@
 
 @font-face {
-  font-family: norway-font;
-  src: url('../fonts/Norway-rvVR7.ttf');
+  font-family: ZT-font;
+  src: url('../fonts/ZTNature-Thin.ttf');
+}
+
+@font-face {
+  font-family: ZT-medium-font;
+  src: url('../fonts/ZTNature-Medium.ttf');
 }
 
 body {
   background-color: black;
   color:aliceblue;
-  font-family: norway-font;
-  letter-spacing: 3px;
+  font-family: ZT-font;
+  letter-spacing: 1px;
 }
 
 nav {
@@ -35,7 +40,13 @@ nav {
   
   .navbar li a:hover {
     background-color: #111111;
+    color: wheat;
     border-radius: 6px;     /*redondea los bordes when hovering*/
+  }
+
+  #hero-header {
+    font-family: ZT-medium-font;
+    font-size: 100px;
   }
 
   img.hero-image {
@@ -45,9 +56,9 @@ nav {
   }
 
   footer {
-    color:#111111;
+    color:wheat;
     text-align: right;
-    background-color: aliceblue;
+    background-color: #272727c1;
     padding: 10px;
   }
   
