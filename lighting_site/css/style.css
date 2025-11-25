@@ -130,11 +130,12 @@ section h2 {
 .dop-quote {
   color:wheat;
   font-weight: bold;
+  width:auto;
 }
 
 .dop-short {
   font-size: large;
-  flex: 1;          /* takes the remaining space */
+  /* flex: 1;          takes the remaining space */
   max-width: 600px; /* optional, sets readable width */
   color: aliceblue;
 }
@@ -146,6 +147,11 @@ section h2 {
   text-align: center;
   font-size: small;
 }
+
+.dop-figure figcaption {
+  font-weight:normal;
+}
+
 /* .dop-box-image {
   width: 100%;
   height: auto;
