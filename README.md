@@ -2,10 +2,10 @@
 In this repository you can find a few websites I created to dive a bit into html, css, javascript, typescript and vue.js. 
 
 # Resources
-  ## HTML & CSS
+  ### < HTML & CSS >
   [W3schools](https://www.w3schools.com/) has been my Bible.
   
-  ## Web design
+  ### < Web design >
   
   From  [Sajid](https://www.youtube.com/@whosajid) I recommend:
   - https://www.youtube.com/watch?v=qyomWr_C_jA
