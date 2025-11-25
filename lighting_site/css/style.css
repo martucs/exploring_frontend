@@ -45,12 +45,29 @@ nav {
     border-radius: 6px;     /*redondea los bordes when hovering*/
   }
 
-  #hero-header {
-    font-family: ZT-medium-font;
-    font-size: 100px;
+  .hero {
+    position: relative;
   }
-
-  img.hero-image {
+  
+  .hero h1 {
+    position: absolute;
+    /* top: 0%;       distance from top of image */
+    left: 30%;     /*  distance from left of image*/
+    right: 1%;
+    margin: 0;
+    font-size: 8vw;
+    font-family: ZT-medium-font;
+    color: white;
+    z-index: 4;
+    text-align: right;
+  }
+  
+  .hero p {
+    text-align: left;     /* makes paragraph left aligned */
+    margin-top: 20px;     /* space below image */
+  }
+  
+  .hero-image {
     width: 100%;
     height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
     display: block; /*evitamos espacios debajo de la imagen*/
