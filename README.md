@@ -3,7 +3,7 @@ In this repository you can find a few websites I created to dive a bit into html
 
 # Resources
   ### < HTML & CSS >
-  [W3schools](https://www.w3schools.com/) has been my Bible.
+  [W3schools](https://www.w3schools.com/) has been my Bible 🙇
   
   ### < Web design >
   
