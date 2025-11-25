@@ -6,7 +6,6 @@ Here are a few websites that I believe have great design or have caught my eye i
 
 - https://www.browserstack.com/
 - https://kirillgroshev.com/
-- https://getbootstrap.com/
 
 # Resources
   ### < HTML & CSS >
