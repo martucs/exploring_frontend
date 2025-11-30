@@ -87,7 +87,7 @@ nav {
     font-size: clamp(14px, 3vw, 22px);
     /* margin-left: 50%; */
   }
-  
+
   .hero-image {
     width: 100%;
     height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
@@ -98,7 +98,7 @@ nav {
 section {
   max-width: 80%;  
   margin: 0 auto;     /* centers */
-  scroll-margin-top: 70px; /*deja un margen de x px al hacer scroll en esa seccion*/
+  scroll-margin-top: 60px; /*deja un margen de x px al hacer scroll en esa seccion*/
 }
 
 #home {
