@@ -32,8 +32,9 @@ nav {
   
   .navbar {
     list-style: none; /* quita los puntos de los elementos*/
-    display: flex;
-    justify-content: center;
+    display: flex; /*by default is in horizontal direction */
+    justify-content: center; 
+    align-items: center;
     margin: 0;
     padding: 0;
     gap: 30px;               
@@ -81,6 +82,7 @@ nav {
     width: 100%;
     height: auto; /*se adapta al resto de la pagina (si fuese 100vh se estiraria hasta rellenar la pagina*/
     display: block; /*evitamos espacios debajo de la imagen*/
+    
   }
 
 section {
@@ -149,7 +151,7 @@ section h2 {
   font-size: small;
     margin-top: 15px;
   margin-inline: 15px 15px;
-
+  filter: grayscale(100%);
 }
 
 
