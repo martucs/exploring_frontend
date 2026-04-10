@@ -262,6 +262,34 @@ section h2 {
   line-height: 1.6;
 }
 
+.favshots-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 15px;
+}
+
+.gallery-item {
+  position: relative;
+  width: calc(25% - 20px);
+  height: auto;
+  margin: 10px;
+  /*cursor: pointer;*/
+  transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-item {
+     width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item  {
+    width: calc(100% - 20px);
+  }
+}
+
 footer {
   color:wheat;
   text-align: right;
